@@ -63,9 +63,6 @@ function checkScore() {
 }
 
 function resetBoard() {
-    let squarevalue = document.querySelectorAll('.square');
-    Array.from(squarevalue).forEach(element => {
-        element.innerText = ""
-    })
+    location.reload()
     
 }
